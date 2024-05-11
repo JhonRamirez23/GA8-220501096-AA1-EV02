@@ -1,0 +1,25 @@
+ul li {
+    cursor: pointer;
+}
+
+.color-prym {
+    background: linear-gradient(324deg, rgba(228,13,110,1) 22%, rgba(180,28,128,1) 60%, rgba(228,13,110,1) 96%);
+}
+
+.text-color {
+    color: #fff;
+}
+
+.text-color:hover {
+    color: purple;
+}
+
+.bgk {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.bgk:hover {
+    background-color: #fff;
+    color: #000;
+}

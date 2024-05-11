@@ -1,0 +1,24 @@
+<header class="p-3 color-prym">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <img src="../../../assets/img/logo/logoJK.svg" alt="Logo JK" class="bi me-2" width="me-auto" height="42" role="img" aria-label="logo">
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li class="nav-link px-2 text-color active" [routerLink]="['/inicio']">Inicio</li>
+          <li class="nav-link px-2 text-color" routerLink="/quienesSomos">Quiénes somos</li>
+          <li class="nav-link px-2 text-color" routerLink="/queHacemos">Qué hacemos</li>
+          <li class="nav-link px-2 text-color" routerLink="/FAQS">FAQs</li>
+          <li class="nav-link px-2 text-color" routerLink="/contactanos">Contáctanos</li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-white" placeholder="Buscar..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2" routerLink="/iniciar-sesion">Login</button>
+          <button type="button" class="btn bgk" routerLink="/registro">Regístrate</button>
+        </div>
+      </div>
+    </div>
+  </header>

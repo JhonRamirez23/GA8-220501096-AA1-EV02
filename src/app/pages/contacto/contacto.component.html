@@ -1,0 +1,100 @@
+<div class="container">
+    <main>
+      <div class="py-5 text-center">
+        <h2>Formulario de contacto</h2>
+        <p class="lead">Ingresa tus datos para ser contactado por un asesor.</p>
+      </div>
+  
+      <div class="row g-5">
+        <div class="container  col-lg-8">
+          <h4 class="mb-3">Datos personales</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Su nombre es requerido.
+                </div>
+              </div>
+  
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Su apellido es requerido.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="username" class="form-label">Empresa</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text"></span>
+                  <input type="text" class="form-control" id="username" required>
+                <div class="invalid-feedback">
+                    El nombre de la empresa es requerido.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="email" class="form-label">Correo <span class="text-body-secondary"></span></label>
+                <input type="email" class="form-control" id="email" placeholder="su@correo.com">
+                <div class="invalid-feedback">
+                  Por favor ingrese un número de correo válido.
+                </div>
+              </div>
+  
+              <div class="col-12">
+                <label for="address" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="address" required>
+                <div class="invalid-feedback">
+                  Por favor ingrese una ciudad.
+                </div>
+              </div>
+  
+              <div class="col-md-5">
+                <label for="country" class="form-label">País</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Elegir...</option>
+                  <option>Colombia</option>
+                  <option>United States</option>
+                  <option>México</option>
+                  <option>Panamá</option>
+                  <option>Argentina</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor ingrese un país válido
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <label for="state" class="form-label">Estado</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Elegir...</option>
+                  <option>Bogotá</option>
+                  <option>Cali</option>
+                  <option>Medellín</option>
+                  <option>Barranquilla</option>
+                </select>
+                <div class="invalid-feedback">
+                  Ingrese una ciudad válida.
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Código Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Ingrese un código válido.
+                </div>
+              </div>
+            </div>
+  
+            <hr class="my-4">
+  
+            <button class="w-100 btn btn-bg btn-lg" type="submit">Enviar Datos</button>
+          </form>
+        </div>
+      </div>
+    </main>

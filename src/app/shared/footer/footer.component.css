@@ -1,0 +1,10 @@
+.fa-brands {
+    margin: 0.5rem;
+    font-size: 1.9rem;
+    color: purple
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    color: cyan;
+}
